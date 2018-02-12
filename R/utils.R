@@ -75,3 +75,9 @@ pdf_document_format <- function(..., format, template, csl) {
 
 
 
+inherit_pdf_document2 <- function(...) {
+  fmt <- bookdown::pdf_document2(...)
+  fmt$inherits <- "pdf_document2"
+  fmt
+}
+
