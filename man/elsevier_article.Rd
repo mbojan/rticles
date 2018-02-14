@@ -2,10 +2,14 @@
 % Please edit documentation in R/elsevier_article.R
 \name{elsevier_article}
 \alias{elsevier_article}
+\alias{elsevier_article2}
 \title{Elsevier journal format.}
 \usage{
 elsevier_article(..., keep_tex = TRUE,
   md_extensions = c("-autolink_bare_uris"))
+
+elsevier_article2(..., keep_tex = TRUE,
+  md_extensions = "-autolink_bare_uris")
 }
 \arguments{
 \item{...}{Additional arguments to \code{rmarkdown::pdf_document}}
@@ -23,6 +27,9 @@ R Markdown output format to pass to
 \description{
 Format for creating submissions to Elsevier journals. Adapted from
 \href{https://www.elsevier.com/authors/author-schemas/latex-instructions}{https://www.elsevier.com/authors/author-schemas/latex-instructions}.
+}
+\details{
+`elsevier_article2` uses `bookdown::pdf_document2` so supports the bookdown syntax.
 }
 \examples{
 
