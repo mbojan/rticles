@@ -1,0 +1,26 @@
+---
+title: "test"
+author: "mb"
+output: rticles::elsevier_document2
+abstract: "This is abstract"
+acknowledgements: "These are acknowledgements"
+---
+
+
+
+
+
+# Introduction
+
+First section of the paper
+
+
+
+# Next section
+
+This is next section.
+
+# A subsection
+
+This is a text constituting the content of subsection within the next section.
+
