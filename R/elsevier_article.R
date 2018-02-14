@@ -30,6 +30,7 @@ elsevier_article <- function(...,
 #' @rdname elsevier_article
 #' @details
 #' `elsevier_article2` uses `bookdown::pdf_document2` so supports the bookdown syntax.
+#' @export
 elsevier_article2 <- function(
   ...,
   keep_tex = TRUE,
